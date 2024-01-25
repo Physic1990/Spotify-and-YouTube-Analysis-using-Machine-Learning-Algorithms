@@ -2,6 +2,22 @@
 
 In this project, I implemented various Machine Learning Algorithms to analysis the data that I got from https://www.kaggle.com/datasets/salvatorerastelli/spotify-and-youtube.
 
+**Initial Proposal:**
+The selected dataset contains information about songs from various artists worldwide, focusing on their
+presence on Spotify and YouTube. Each song's data includes Spotify-specific statistics like the number of
+streams and YouTube-specific data such as the number of views for the official music video.
+The dataset comprises 26 variables for each song, offering detailed insights into the music and its online
+presence. These variables include the song's name, artist, URL on Spotify, album, album type, and
+various audio features like danceability, energy, key, loudness, liveness, valence, tempo, duration, etc.
+Additionally, the dataset provides information about the song's performance on YouTube, such as its
+title, channel, views, likes, comments, description, licensing status, and whether the video is the official
+one. I want to work on a project that will help people find music they love. I'm using a big dataset from
+Spotify and YouTube to make personalized song recommendations based on what people have listened
+to before. But I'm also looking at how popular songs change over time. Do certain songs become more
+popular during different seasons or times of the year? I'm going to use numbers and patterns to try to
+predict what songs might become popular in the future. So, I'm not just making playlists; I'm also figuring
+out how music changes over time.
+
 Algorithms include:
 1. **Linear Regression:**
    - *Purpose:* Predicts a continuous outcome variable based on one or more predictor variables.
